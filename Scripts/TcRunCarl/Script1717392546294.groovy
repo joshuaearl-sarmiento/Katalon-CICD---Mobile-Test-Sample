@@ -19,13 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('/Users/carlmalubag/Downloads/General-Store.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.Spinner'), 0)
-
-Mobile.scrollToText('Japan')
-
-Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.TextView - Japan'), 0)
-
-Mobile.sendKeys(findTestObject('Object Repository/MobileAppTest 1/android.widget.EditText - Enter name here'), 'Joshua')
+Mobile.sendKeys(findTestObject('Object Repository/MobileAppTest 1/android.widget.EditText - Enter name here'), 'aassdd')
 
 Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.Button - Lets  Shop'), 0)
 
