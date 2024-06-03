@@ -17,26 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.androidsample.generalstore')
+Mobile.startApplication('/Users/princeanriepineda/Downloads/General-Store.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.TextView - Afghanistan'), 0)
+Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.Spinner'), 0)
 
-Mobile.scrollToText('Japan')
+Mobile.scrollToText('Bahamas')
 
 Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.TextView - Bahamas'), 0)
 
-Mobile.sendKeys(findTestObject('Object Repository/MobileAppTest 1/android.widget.EditText - Enter name here'), 'Vegeta')
-
-Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.RadioButton - Female'), 0)
+Mobile.sendKeys(findTestObject('Object Repository/MobileAppTest 1/android.widget.EditText - Enter name here'), 'Skull')
 
 Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.Button - Lets  Shop'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.TextView - ADD TO CART'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.ImageButton'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.Button - Visit to the website to complete purchase'), 
-    0)
 
 Mobile.closeApplication()
 

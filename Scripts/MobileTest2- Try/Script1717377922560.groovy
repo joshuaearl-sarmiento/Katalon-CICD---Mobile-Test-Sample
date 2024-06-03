@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.Spin
 
 Mobile.scrollToText('Japan')
 
-Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.TextView - Japan'), 0)
+Mobile.tap(findTestObject('Object Repository/MobileAppTest 1/android.widget.TextView - Bahamas'), 0)
 
 Mobile.sendKeys(findTestObject('Object Repository/MobileAppTest 1/android.widget.EditText - Enter name here'), 'Joshua')
 
